@@ -5,3 +5,19 @@ batches_required = 50
 litres_to_batches = int(input("How many litres do I require"))
 if litres_to_batches:=50:
   print("22")
+
+
+
+def uk_gallons_to_litres(gallons):
+  return gallons * 4.54609
+"""
+    Change UK (imperial) gallons to litres.
+     Guide:
+        gallons (float): The number of UK gallons.
+     Return:
+        float: Equivalent litres.
+"""
+print(uk_gallons_to_litres(1))
+print(uk_gallons_to_litres(5))
+print(uk_gallons_to_litres(17))
+print(uk_gallons_to_litres(9))
