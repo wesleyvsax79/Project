@@ -15,3 +15,10 @@ print(uk_gallons_to_litres(1))
 print(uk_gallons_to_litres(5))
 print(uk_gallons_to_litres(17))
 print(uk_gallons_to_litres(9))
+
+
+def uk_gallons_to_litres(gallons):
+  return float(gallons) * 4.54609
+  
+gallons = input("please enter gallon")
+print(f"{uk_gallons_to_litres(gallons)}")
