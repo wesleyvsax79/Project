@@ -9,14 +9,8 @@ if litres_to_batches:=50:
 
 
 def uk_gallons_to_litres(gallons):
-  return gallons = 4.54609
-"""
-    Change UK (imperial) gallons to litres.
-     Guide:
-        gallons (float): The number of UK gallons.
-     Return:
-        float: Equivalent litres.
-"""
+  return gallons * 4.54609
+
 print(uk_gallons_to_litres(1))
 print(uk_gallons_to_litres(5))
 print(uk_gallons_to_litres(17))
