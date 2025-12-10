@@ -9,7 +9,7 @@ if litres_to_batches:=50:
 
 
 def uk_gallons_to_litres(gallons):
-  return gallons * 4.54609
+  return gallons = 4.54609
 
 print(uk_gallons_to_litres(1))
 print(uk_gallons_to_litres(5))
