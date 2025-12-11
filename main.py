@@ -35,7 +35,7 @@ def litres_to_uk_gallons(litres):
 
 for x in range(3):
 
-    print("enter 1 for gallons to litres   2 for litres to gallons")
+    print("enter 1 for gallons to litres   2 for litres to gallons  3 close programme")
     choice = input("Please make a selection")
     if choice == "1":
         number_to_convert=float((input("how many gallons do you want to convert")))
@@ -46,7 +46,8 @@ for x in range(3):
         print(litres_to_uk_gallons(number_to_convert))
 
     elif choice == "3":
-        break
+      print("exiting programme")
+      break
 
     else:
         print("pick another item")
