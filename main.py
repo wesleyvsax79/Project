@@ -1,4 +1,4 @@
-uk_gallon_to_litres = 4.54609 
+'''uk_gallon_to_litres = 4.54609 
 litres_to_batches = 2
 batches_required = 50
 
@@ -21,7 +21,7 @@ def uk_gallons_to_litres(gallons):
   return float(gallons) * 4.54609
   
 gallons = input("please enter gallon")
-print(f"{uk_gallons_to_litres(gallons)}")
+print(f"{uk_gallons_to_litres(gallons)}")'''
 
 
 
