@@ -22,3 +22,31 @@ def uk_gallons_to_litres(gallons):
   
 gallons = input("please enter gallon")
 print(f"{uk_gallons_to_litres(gallons)}")
+
+
+
+
+def uk_gallons_to_litres(gallons):
+    return gallons * 4.54609
+
+
+def litres_to_uk_gallons(litres):
+    return litres / 4.54609
+
+for x in range(3):
+
+    print("enter 1 for gallons to litres   2 for litres to gallons")
+    choice = input("Please make a selection")
+    if choice == "1":
+        number_to_convert=float((input("how many gallons do you want to convert")))
+        print(uk_gallons_to_litres(number_to_convert))
+
+    elif choice == "2":
+        number_to_convert = float((input("how many litres do you want to convert")))
+        print(litres_to_uk_gallons(number_to_convert))
+
+    elif choice == "3":
+        break
+
+    else:
+        print("pick another item")
